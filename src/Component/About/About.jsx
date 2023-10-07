@@ -7,7 +7,7 @@ export default function About() {
   let {counter}=useSelector((state)=>state.counter)
   const dispatch = useDispatch()
   let Counter=useContext(counterContext)
-  console.log('salah');
+ 
 
   return (
     <>
